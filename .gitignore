@@ -35,4 +35,4 @@ build/
 ### Nacis ###
 data/
 logs/
-
+*.log
