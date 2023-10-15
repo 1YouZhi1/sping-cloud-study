@@ -12,3 +12,5 @@ spring:
     nacos:
       discovery:
         server-addr: localhost:8848
+        #将ephemeral修改为false,表示非临时实例
+        ephemeral: false
