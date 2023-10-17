@@ -14,3 +14,4 @@ spring:
         server-addr: localhost:8848
         # 将ephemeral修改为false,表示非临时实例
         ephemeral: false
+        namespace: 8e7825e4-60b2-473c-afe0-2a13ae078a6e
