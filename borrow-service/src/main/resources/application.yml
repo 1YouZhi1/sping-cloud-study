@@ -15,3 +15,9 @@ spring:
         #将ephemeral修改为false,表示非临时实例
         ephemeral: false
         namespace: 8e7825e4-60b2-473c-afe0-2a13ae078a6e
+    sentinel:
+      transport:
+        dashboard: localhost:8858
+      #关闭Context收敛，这样被监控方法可以进行不同链路的单独控制
+      web-context-unify: false
+      block-page: /blocked
